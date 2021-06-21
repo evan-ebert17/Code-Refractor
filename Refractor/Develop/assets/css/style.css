@@ -1,3 +1,5 @@
+/*organized the css to match the top-bottom formatting of the HTML document, removing redundant classes and classes with the literal same formatting */
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -19,10 +21,12 @@ h1 {
     font-size: 48px;
 }
 
+/* previously .seo */
 #seo {
     color: #d9dcd6;
 }
 
+/* added element, was previously a div with the class of header */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -72,6 +76,7 @@ body {
     margin-left: 20px;
 }
 
+/* was previously three seperate classes, now changed to only .content-blocks and for all relevant elements associated with those previous classes */
 .content-blocks {
     margin-bottom: 20px;
     padding: 50px;
@@ -99,7 +104,7 @@ body {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/* was previously three seperate classes, now changed to only .benefits and for all relevant elements associated with those previous classes */
 .benefits {
     margin-right: 20px;
     padding: 20px;
