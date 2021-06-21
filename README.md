@@ -1,6 +1,6 @@
 # Code-Refractor
 
-Here are some of the revisions I have made to the Website.
+Here are the revisions I have made to the Horiseon website.
 
 ## Changes
 
