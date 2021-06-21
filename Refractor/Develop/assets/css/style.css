@@ -104,8 +104,8 @@ body {
     margin-bottom: 20px;
     font-size: 36px;
 }
-/* was previously three seperate classes, now changed to only .benefits and for all relevant elements associated with those previous classes */
-.benefits {
+/* previously .benefits */
+#benefits {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -116,6 +116,7 @@ body {
     background-color: #2589bd;
 }
 
+/* was previously three seperate classes, now changed to only .benefit and for all relevant elements associated with those previous classes */
 .benefit {
     margin-bottom: 32px;
     color: #ffffff;
