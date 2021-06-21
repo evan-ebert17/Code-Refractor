@@ -20,7 +20,7 @@ and replaced them with one class named;
 .content-blocks
 `
 
-replaced
+then I replaced
 
 `
 .benefit-lead
@@ -33,3 +33,7 @@ with
 `
 .benefits
 `
+
+which resulted in the cleanup of all the previously associated classes and their *same* formatting.
+
+and the last two changes are  the seo class in the span in the header to an id of #seo as it only gets used once and the title of the website now reading Horiseon Home Page (previously just "webpage".)
